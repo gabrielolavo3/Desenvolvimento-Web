@@ -1,0 +1,39 @@
+body{
+    /* background: gray;  Muda a cor do fundo da tela */
+    background: linear-gradient(yellow, purple, white); /* Cria um degradê */
+}
+
+h1{
+    color: rgb(92, 2, 2);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 50%; /* Muda a largura da linha */
+    height: 20px; /* Aumenta ou diminnui altura da linha hr */
+    background: orange; /* Muda a cor do fundo de um objeto */
+}
+
+p{
+    width: 50%;
+    margin: auto; /* Centraliza paragrafo ao jogar metade da tela pros lados */
+}
+
+img{
+    width: 650px; /* Define a largura de imagens */
+    height: 350px; /* Define a altura de imagens */
+}
+
+.caixaimagem{
+    width: fit-content; /* Ajusta o tamanho da caixa com o mesmo tamanho das imagens */
+    margin: auto;
+}
+
+#vidpunk{
+    width: 50%;
+    display: block; /* Faz se comportar como div(caixa) */
+    margin: auto;
+    border-radius: 20px; /* Arredonda as bordas */
+}
