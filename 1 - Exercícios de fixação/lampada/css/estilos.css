@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background: linear-gradient(darkblue, darkred);
+    display: flex; /*alinha o conteúdo do body em linha horizontal (corpos) */
+    align-items: center; /* Alinha o body de baixo pra cima/vertical */
+    justify-content: center; /* Alinha a posição entre a esquerda e da direita/ horizontal */
+
+    /*display: flex; permite o uso do align-items e do justify-content*/
+}
+
+.central{
+    background: white;
+    width: 300px; /* Define largura */
+    height: 300px; /* Define altura */
+    border-radius: 30px; /* Ajusta as bordas da caixa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Faz o display flex ficar em colunas, na vertical */
+    gap: 15px; /* Distância entre objetos do display flex*/
+}
+
+.central img{
+    height: 180px;
+}
+
+.central button{ /*Conexão de Estilo: Formata apenas os botões da Caixa Central, não afeta os botões de fora da caixa*/
+    width: 80px;
+    background: darkred;
+    color: white; /* Muda a cor da letra*/
+    outline: none; /*Tira a borda externa*/
+    border: none; /*Tira a borda interna*/
+    font-size: 17px; /*Muda a tamanho da letra*/
+    border-radius: 10px;
+    cursor: pointer; /*Muda o curso para uma mãozinha*/
+    transition: 0.3s; /*Controla a mudança de cor para o Pseudoclass*/
+}
+
+.central button:hover{ /*Pseudoclass -> Muda a formatacao oa passar o mouse | Só existe depois 
+da conexão de estilos | Herda as configurações do central butonn*/
+    background: silver;
+    color: darkred;
+}
