@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background: linear-gradient(black, rgb(167, 8, 8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+.caixa{
+    background: black;
+    border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caixa img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.caixa button{
+    color: firebrick;
+    width: 120px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.caixa button:hover {
+    background: red;
+    color: black;
+}
