@@ -1,0 +1,40 @@
+body {
+    background: url('/images/mk1.jpeg');
+    background-size: cover; /*Faz a imagemde fundo ser autoajustavel*/
+    background-attachment: fixed; /*Faz a imagem ficar parada e o não se mover ao usar o mouse*/
+    height: 100vh; /*V= vertical e H= horizontal -> 100% na vertical e horizontal*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 400px;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.596);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black; /*Ajusta a sombra | Y X Enovoamento Cor*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /*Faz espaçamento interno*/
+}
+
+/* Formata todas as divs dentro de central */
+.central div {
+    width: 120px;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central span {
+    color: white;
+    font-size: 70px;
+}
