@@ -1,0 +1,77 @@
+body {
+    background: url('/images/fundo.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+
+.saudacao {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.data {
+    background: rgba(255, 255, 255, 0.565);
+    height: 90px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.data div {
+    background: rgba(255, 166, 0, 0.872);
+    width: 280px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.data span {
+    font-weight: bolder;
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+}
+
+.caixa {
+    background: rgba(255, 255, 255, 0.565);
+    height: 300px;
+    width: 700px;
+    display: flex;
+    box-shadow: 5px 5px 12px black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.caixa div {
+    height: 170px;
+    width: 150px;
+    background: rgba(0, 100, 0, 0.893);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.caixa span {
+    font-size: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caixa span.tempo { /* Muda as configurações de uma classe dentro do span*/
+    font-size: 20px; 
+}
