@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+img {
+    height: 100px;
+}
+
+.claro {
+    background: linear-gradient(cyan, red);
+}
+
+.escuro {
+    background: linear-gradient(darkblue, black);
+}
