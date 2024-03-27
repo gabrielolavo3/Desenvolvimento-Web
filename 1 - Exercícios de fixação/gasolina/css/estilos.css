@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    background: linear-gradient(pink, darkcyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio {
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.meio input {
+    height: 20px;
+    width: 280px;
+    border: none; /* Tira bordar externa */
+    outline: none; /* Tira bordar interna */
+    border-radius: 3px;
+}
+
+.meio button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: pink;
+    font-size: 20px;
+    color: darkcyan;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.meio button:hover {
+    color: darkred;
+    background: darksalmon;
+}
+
+.meio span {
+    font-size: 18px;
+}
