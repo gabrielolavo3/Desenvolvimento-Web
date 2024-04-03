@@ -1,0 +1,58 @@
+body {
+    background: url('/images/estudo.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.caixa {
+    height: 380px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.817);
+    gap: 10px;
+    border-radius: 35px;
+    border: 3px solid white;
+    box-shadow: 0.3px 3px 10px black;
+}
+
+.caixa h1 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caixa input {
+    height: 29px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.caixa button {
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.caixa button:hover {
+    background: black;
+    color: white;
+}
+
+.caixa span {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
