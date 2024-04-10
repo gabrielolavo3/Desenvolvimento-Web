@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(45deg, white,purple, rgb(181, 18, 18));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.central {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 530px;
+    width: 900px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.central img {
+    height: 450px;
+    border-radius: 15px;
+    padding: 2px;
+    border: 2px solid brown;
+}
+
+.central p {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btns button {
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding: 6px;
+    transition: 0.5s;
+}
+
+.btns button:hover {
+    background: black;
+    color: white;
+}
