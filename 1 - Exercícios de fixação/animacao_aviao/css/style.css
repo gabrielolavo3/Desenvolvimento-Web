@@ -10,8 +10,7 @@ body {
     position: absolute;  /* Faz o objeto ficar em qualquer posicao da tela */
     top: 0; /*Controla de cima para baixo - Coordenada 00*/
     left: 0;
-    animation: move 3s ease-out;
-    animation-iteration-count: infinite; /* Coloca em loop infinito */
+    animation: move 3s ease-out infinite; /* Coloca em loop infinito */
 }
 
 @keyframes move {
