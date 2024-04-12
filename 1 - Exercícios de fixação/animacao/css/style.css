@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+}
+
+#mundo {
+    height: 100vh;
+    background: url(/image/fundoceu.jpg);
+    background-size: cover;
+}
+
+#carro {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url('/image/carro_corr.png');
+    background-size: contain;
+    top: 650px;
+    left: 0px;
+    animation-name: dirigir;
+    animation-duration: 3.5s;
+}
+
+#sol {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url('/image/sol.png');
+    background-size: contain;
+    top: 50px;
+    left: 0px;
+    animation-name: moveSol;
+    animation-duration: 8s;
+}
+
+#chao {
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    background: url('/image/estrada.jpg');
+    background-size: contain;
+    top: 700px;
+    left: 0px;
+}
+
+@keyframes dirigir {
+    from{transform: translateX(100px);}
+    to{transform: translateX(1400px);}
+}
+
+@keyframes moveSol {
+    from{transform: translateX(100px);}
+    to{transform: translateX(500px);}
+}
